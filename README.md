@@ -22,3 +22,14 @@ We present Compound Conditioned ControlNet, C3Net, a novel generative neural arc
 <p align="center">
   <img align="middle" width="800" src="assets/abstruct.png"/>
 </p>
+
+## Methodology
+<p align="center">
+  <img align="middle" width="800" src="assets/masterFlow.png"/>
+</p>
+
+
+![image alt >](assets/uni_pretrain.png)
+![image alt <](assets/ZoomIn.png)
+
+
