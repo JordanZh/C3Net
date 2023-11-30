@@ -36,13 +36,13 @@ We present Compound Conditioned ControlNet, C3Net, a novel generative neural arc
 
 ## Experiments
 <p align="center">
-  <img align="middle" width="800" src="assets/compare.jpeg"/>
+  <img align="middle" width="70%" src="assets/compare.jpeg"/>
 </p>
 
 #### Contradictory conditions
 
 <p align="center">
-  <img align="middle" width="800" src="assets/sup.jpeg"/>
+  <img align="middle" width="70%" src="assets/sup.jpeg"/>
 </p>
 
 
