@@ -14,7 +14,7 @@
   <span class="author-block"><sup>2</sup>Dartmouth College</span>
 </div>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2305.11846-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/)  
+[![arXiv](https://img.shields.io/badge/arXiv-2305.11846-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2311.17951)  
 
 ## Abstruct
 
