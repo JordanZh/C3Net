@@ -1,0 +1,21 @@
+video_trainer_configs:
+  batch_size: 8
+  batch_size_pseudo: 1
+  num_workers: 8
+  pin_memory: False
+  num_epoch: 512
+  checkpoint_save_span: 320
+  loss_report_span: 4
+  loss_monitor_draw_span: 32
+
+  lr: 1.0e-4
+  unimodal_lr: 1.0e-3
+  loss_temperature_lr: 5.0e-5
+
+  continue_training: False
+  checkpoint_path: None
+  results_folder: results/results_video
+
+  video_mae_configs:
+    anno_path_for_loader_helper: dataset/MSR_VTT/dataset_helper_for_videoMae.csv
+    helper_arg_path: model/VideoMAE_v1/v1_model_args.txt

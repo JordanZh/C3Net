@@ -1,0 +1,69 @@
+audio_config:
+  num_mel_bins: 128
+  target_length: 1024  # audio length in 10ms, i.e., audio frames
+  mean: -4.2677393
+  std: 4.5689974
+  skip_norm: True
+  noise: False
+
+ssast_config:
+  label_dim: 768
+  fshape: 16
+  tshape: 16
+  fstride: 16
+  tstride: 16
+  input_tdim: 1024
+  input_fdim: 128
+  model_size: base
+  pretrain_stage: False
+  load_pretrained_mdl_path: pretrained_models/SSAST-Base-Patch-400.pth
+  #forward_task: ft_avgtok
+
+clip_config:
+  device: cuda
+
+common_embedding_dim: 768
+
+# for audio encoder start
+num_epoch: 500
+batch_size: 32
+dataset_path: dataset/EpidemicDataset
+
+optimizer_config:
+  lr: 5.0e-4
+  unimodal_lr: 5.0e-4
+  loss_temperature_lr: 1.0e-5
+
+checkpoint_span: 500
+continue_training: False
+checkpoint_path: None
+results_folder: results
+test_folder: test
+#for audio encoder end
+
+
+video_mae_configs:
+  anno_path_for_loader_helper: dataset/MSR_VTT/dataset_helper_for_videoMae.csv
+  helper_arg_path: model/VideoMAE_v1/v1_model_args.txt
+  num_class_before_head: 768
+  num_intermediate_at_head: 768
+
+video_trainer_configs:
+  batch_size: 1
+  batch_size_pseudo: 32
+  num_workers: 4
+  pin_memory: True
+  num_epoch: 128
+  checkpoint_save_span: 32
+  loss_report_span: 1
+  loss_monitor_draw_span: 4
+
+  lr: 5.0e-4
+  unimodal_lr: 5.0e-4
+  loss_temperature_lr: 1.0e-5
+
+  continue_training: False
+  checkpoint_path: None
+  results_folder: results/results_video
+
+video_test_folder: test/video_test

@@ -1,0 +1,4 @@
+optimizer_config:
+  lr: 1.0e-4
+  unimodal_lr: 7.0e-5
+  loss_temperature_lr: 1.0e-5
