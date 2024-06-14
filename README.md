@@ -50,7 +50,7 @@ We would like to thank the contributors to the [CoDi](https://github.com/microso
 ## Citation
 
 ```
-@misc{C3Net2024,
+@INPROCEEDINGS{C3Net2024,
       title={C3Net: Compound Conditioned ControlNet for Multimodal Content Generation}, 
       author={Juntao Zhang and Yuehuai Liu and Yu-Wing Tai and Chi-Keung Tang},
       booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
