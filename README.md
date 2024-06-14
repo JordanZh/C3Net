@@ -45,7 +45,7 @@ We present Compound Conditioned ControlNet, C3Net, a novel generative neural arc
 
 ## Acknowledgements
 
-We would like to thank the contributors to the [CoDi](https://github.com/microsoft/i-Code/tree/main) and [SSAST](https://github.com/YuanGongND/ssast), [animatediff](https://github.com/guoyww/AnimateDiff) repositories, for their open research and exploration.
+We would like to thank the contributors to the [CoDi](https://github.com/microsoft/i-Code/tree/main) and [SSAST](https://github.com/YuanGongND/ssast) repositories, for their open research and exploration.
 
 ## Citation
 
