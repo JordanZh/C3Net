@@ -1,12 +1,12 @@
 # Adapted from https://github.com/magic-research/magic-animate/blob/main/magicanimate/models/mutual_self_attention.py
-from typing import Any, Dict, Optional
+import Any, Dict, Optional
 
 import torch
 from einops import rearrange
 
 from src.models.attention import TemporalBasicTransformerBlock
 
-from .attention import BasicTransformerBlock
+from src.models.attention import BasicTransformerBlock
 
 
 def torch_dfs(model: torch.nn.Module):
