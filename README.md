@@ -43,6 +43,11 @@ We present Compound Conditioned ControlNet, C3Net, a novel generative neural arc
   <img align="middle" width="70%" src="assets/sup.jpeg"/>
 </p>
 
+## Download weights
+
+All the weights should be placed under the `./checkpoint` directory. You can download weights at [weights](https://huggingface.co/JordanZh/C3Net/resolve/main/ckp.pt), which include the weights of Control C3-Unet. 
+
+
 ## Acknowledgements
 
 We would like to thank the contributors to the [CoDi](https://github.com/microsoft/i-Code/tree/main) and [SSAST](https://github.com/YuanGongND/ssast) repositories, for their open research and exploration.
